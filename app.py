@@ -1,4 +1,3 @@
-!conda install -y gdown
 
 # Import Library
 
