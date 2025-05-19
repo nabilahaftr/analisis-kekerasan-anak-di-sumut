@@ -1,3 +1,5 @@
+import os
+os.system("pip install openpyxl")
 
 # Import Library
 
