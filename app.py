@@ -20,7 +20,8 @@ from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_sc
 
 # Connect to Google Drive
 
-data = pd.read_excel('/content/dataset siga.xlsx')
+data = pd.read_excel(r'C:\Users\ACER\Dropbox\PC\Downloads\venv\dataset siga.xlsx')
+
 
 print('Jumlah Baris dan Kolom Kasus Kekerasan Provinsi Sumatera Utara Tahun 2018 :\n', data.shape)
 print('Jumlah Baris Kasus Kekerasan Provinsi Sumatera Utara Tahun 2018 : \n', data.shape[0])
