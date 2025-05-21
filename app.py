@@ -27,7 +27,7 @@ st.write(os.listdir('.'))
 
 # Connect to Google Drive
 
-data = pd.read_excel('dataset_siga.xlsx')
+data = pd.read_excel('/content/dataset siga.xlsx')
 
 
 print('Jumlah Baris dan Kolom Kasus Kekerasan Provinsi Sumatera Utara Tahun 2018 :\n', data.shape)
