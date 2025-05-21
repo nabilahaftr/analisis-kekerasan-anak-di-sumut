@@ -18,6 +18,13 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 
+import os
+import streamlit as st
+
+st.write('app.py', 'dataset_siga.xlsx', 'requirements.txt')
+st.write(os.listdir('.'))
+
+
 # Connect to Google Drive
 
 data = pd.read_excel('dataset_siga.xlsx')
